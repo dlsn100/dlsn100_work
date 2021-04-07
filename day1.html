@@ -6,10 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css_img_hl_btn</title>
 </head>
-<table>
-    <tr><th>월요일</th><th>화요일</th></tr>
-</table>>
 
 
-<body>  </body>
+
+
+<body>
+    <table border = 1px solid red >
+        <tr><th>월요일</th><th>화요일</th></tr>
+        <tr><td>메이플</td><td>메이플M</td></tr>
+        <tr><td>예아</td><td>거짓말</td></tr>
+        <tr><td>이제야</td><td>몰랐어</td></tr>
+        <tr><td>암소쏘리</td><td>벗알럽유</td></tr>
+        table { border: 1px solid red; }
+      <!-- [2] td { border: 1px solid red; }--> 
+    </table>
+    <style>
+        .border-styles > p{
+            margin: 2px 0;
+            padding: 1px 3px;
+            border-width: 2px;
+            border-color: #aaa;
+        }
+    </style>
+    <div class="border-styles">
+        <p style="border-style: solid">solid</p>
+        <p style="border-style: dotted">dotted</p>
+        <p style="border-style: dashed">dashed</p>
+        <p style="border-style: double">double</p>
+        <p style="border-style: groove">groove</p>
+        <p style="border-style: ridge">ridge</p>
+        <p style="border-style: inset">inset</p>
+        <p style="border-style: outset">outset</p>
+    </div>
+
+<a href="https://ko.wikipedia.org/wiki/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%EC%9D%98_%EC%9D%8C%EB%B0%98_%EC%99%B8_%ED%99%9C%EB%8F%99_%EB%AA%A9%EB%A1%9D">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%E2%80%98LG_Q7_BTS_%EC%97%90%EB%94%94%EC%85%98%E2%80%99_%EC%98%88%EC%95%BD_%ED%8C%90%EB%A7%A4_%EC%8B%9C%EC%9E%91_%2842773472410%29_%28cropped%29.jpg/300px-%E2%80%98LG_Q7_BTS_%EC%97%90%EB%94%94%EC%85%98%E2%80%99_%EC%98%88%EC%95%BD_%ED%8C%90%EB%A7%A4_%EC%8B%9C%EC%9E%91_%2842773472410%29_%28cropped%29.jpg"
+alt="이미지 없음">    
+
+</a>
+   
+<form action="a.html">
+    <input type="button" name="btn1" value="누를텐가">
+    <input type="button" name="btn2" value="누르지말게" onclick="alert('누르지말라고')">
+
+<!-- html에서는 버튼디자인만 가능, 온클릭= 경고창--> 
+
+  </body>
 </html>
