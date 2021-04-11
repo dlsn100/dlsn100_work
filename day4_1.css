@@ -1,0 +1,70 @@
+.top{
+    width:  100%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.container1{
+    background: #194E92;
+    float: left;
+    width : 100%;
+    height : 100% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.container2{
+    float: right;
+    background: #194E92;
+    width : 100%;
+    height : 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+.item {
+ 
+width: 100px;
+height : 40px;
+
+}
+
+
+
+.item1{
+    background: #1C589E ;
+}
+
+.item2{
+    background: #1C589E ;
+}
+.item3{
+    background: #1C589E ;
+}
+.item4{
+    background: #1C589E ;
+}
+.item5{
+    background: #1C589E ;
+}
+.item6{
+    background: #1C589E ;
+}
+.item7{
+    background: #1C589E ;
+}
+.item8{
+    background: #8B705A ;
+}
+.item9{
+    background: #1C589E ;
+}
+.item10{
+    background: #1C589E ;
+}
+.item11{
+    background: #1C589E ;
+}
+.item12{
+    background: #1C589E ;
+}
