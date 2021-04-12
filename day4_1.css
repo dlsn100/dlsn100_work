@@ -2,6 +2,7 @@
     width:  100%;
     margin: 10px auto;
     display: flex;
+    text-align: center;
 }
 
 .container1{
@@ -22,6 +23,18 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
 }
+
+.first {
+   
+    flex:1;
+    margin: 0px 0%;
+    width:30%;
+    box-sizing: border-box;
+}
+
+
+
+
 .item {
  
 width: 100px;
@@ -67,4 +80,7 @@ height : 40px;
 }
 .item12{
     background: #1C589E ;
+}
+.item13{
+    background: #FFFFFF ;
 }
