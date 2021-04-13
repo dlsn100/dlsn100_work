@@ -7,6 +7,8 @@
 }
 
 .top{
+   
+    background: white;
     width:  100%;
     margin: 10px auto;
     display: flex;
@@ -14,6 +16,7 @@
 }
 
 .bottom{
+    clear:both;
     background: #464D5D;
     bottom :0;
     width:  100%;
