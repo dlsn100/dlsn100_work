@@ -1,12 +1,36 @@
 .sc{ 
-    width: 25%;
+    width: 100%;
  } 
-    img {
+   /* img {
          max-width: 100%; height: auto; 
-        }
+        }*/
 
 
+/*중간사진*/
+.mid{
+    text-align: center;
+    
+}
+    .mid img{
+    margin: 10px;
+    width :20%;
+    
+}
 
+.mid > img:nth-child(4){
+    top: 0 ;
+    
+}
+/*.middle > div{
+    width: 20%;
+    float: left;
+}
+.middle img{
+    width: 100;
+    padding : 10px 10px;
+    box-sizing: border-box;
+}
+*/
 
 .fix{
     position: fixed;
@@ -75,12 +99,19 @@ body, html {
     flex-wrap: nowrap;
 }
 
+
+
 .first {
    
     flex:1;
     margin: 0px 0%;
     width:30%;
     box-sizing: border-box;
+}
+
+
+div{
+    text-align: center;
 }
 
 
@@ -120,6 +151,7 @@ height : 40px;
 .item8{
     background: #8B705A ;
 }
+/*#8B705A*/
 .item9{
     background: #1C589E ;
 }
