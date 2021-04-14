@@ -1,9 +1,19 @@
 #content{
     padding: 30px;
     text-align: center;
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    height: 200px;
+    display: block;
 }
 #bigimages{
+    object-fit: cover;
     margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 #big{
     width: 310px;
@@ -13,3 +23,9 @@
     width: 100px;
     height: 100px;
 }
+body {
+    background-image: url('#');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }

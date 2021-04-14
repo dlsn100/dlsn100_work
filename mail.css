@@ -1,11 +1,28 @@
+.sc{ 
+    width: 25%;
+ } 
+    img {
+         max-width: 100%; height: auto; 
+        }
+
+
+
+
 .fix{
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background: white;
+
 }
 
+body{
+    padding-top: 164px;
+}
+body, html {
+    height: 200%;
+  }
 .top{
    
     background: white;
